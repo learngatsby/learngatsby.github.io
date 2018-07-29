@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Header from '../components/header';
-import './index.css';
+import '../styles/index.scss';
 
 const Layout = ({ children, data }) => (
   <div>
