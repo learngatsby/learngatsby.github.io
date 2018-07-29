@@ -25,10 +25,10 @@ const IndexPage = () => (
                 />
               </figure>
             </div>
-            <h1 className="title has-text-centered">
+            <h1 className="title level-item">
               Luan Orlandi
             </h1>
-            <h2 className="subtitle has-text-centered">
+            <h2 className="subtitle level-item">
               Desenvolvedor Web
             </h2>
           </div>
@@ -47,7 +47,7 @@ const IndexPage = () => (
           ))}
         </div>
       </div>
-      <section className="section is-size-3-desktop is-size-4-touch">
+      <section className="section is-size-4-desktop is-size-5-touch">
         <div className="container content">
           <h3 className="title">
             Olá, eu sou o Luan Orlandi!
