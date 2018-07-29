@@ -12,7 +12,7 @@ const socialMedias = [
 
 const IndexPage = () => (
   <div>
-    <section className="section">
+    <div className="">
       <div className="container">
         <div className="columns is-mobile">
           <div className="column level">
@@ -29,7 +29,7 @@ const IndexPage = () => (
               Luan Orlandi
             </h1>
             <h2 className="subtitle has-text-centered">
-              Web Developer
+              Desenvolvedor Web
             </h2>
           </div>
         </div>
@@ -47,12 +47,31 @@ const IndexPage = () => (
           ))}
         </div>
       </div>
-      <div className="container">
-        <Link to="/page-2/">
-          Go to page 2
-        </Link>
-      </div>
-    </section>
+      <section className="section is-size-3-desktop is-size-4-touch">
+        <div className="container content">
+          <h3 className="title">
+            Olá, eu sou o Luan Orlandi!
+          </h3>
+          <p>
+            Sou desenvolvedor web, trabalho com Front-end criando aplicações
+            e páginas Web.
+            Participo de eventos de tecnologia e gosto de estudar produtividade,
+            comunicação e gamificação, que me ajuda a manter organizado e
+            colaborativo.
+          </p>
+          <p>
+            Desenvolvo projetos usando principalmente JavaScript com React e Node.
+          </p>
+          <p>
+            Veja meus
+            {' '}
+            <Link to="/page-2/">
+              projetos pessoais.
+            </Link>
+          </p>
+        </div>
+      </section>
+    </div>
   </div>
 );
 
