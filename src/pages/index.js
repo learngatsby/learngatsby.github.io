@@ -48,6 +48,10 @@ const IndexPage = () => (
       <div className="container content">
         <h4 className="title">
           Olá, eu sou o Luan Orlandi!
+          {' '}
+          <span role="img" aria-label="wave">
+            👋
+          </span>
         </h4>
         <p>
           Sou desenvolvedor web, trabalho com Front-end criando aplicações
