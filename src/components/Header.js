@@ -1,0 +1,62 @@
+import React, { Component } from 'react';
+import Link from 'gatsby-link';
+
+const navbarLinks = [
+  { text: 'Home', link: '/' },
+  { text: 'Projetos', link: '/projects' },
+  { text: 'Posts', link: '/posts' },
+  { text: 'Stack', link: '/stack' },
+];
+
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMenuOpen: false,
+    };
+  }
+
+  handleMenu = () => {
+    this.setState(previousState => ({
+      isMenuOpen: !previousState.isMenuOpen,
+    }));
+  }
+
+  render = () => {
+    const { siteTitle } = this.props;
+    const { isMenuOpen } = this.state;
+    const burguerClass = isMenuOpen ? 'is-active' : '';
+
+    return (
+      <nav className="navbar has-shadow is-spaced">
+        <div className="container">
+          <div className="navbar-brand">
+            <Link className="navbar-item is-size-4" to="/">
+              {siteTitle}
+            </Link>
+            <button
+              className={`button is-white navbar-burger ${burguerClass}`}
+              type="button"
+              onClick={this.handleMenu}
+            >
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+            </button>
+          </div>
+          <div className={`navbar-menu ${burguerClass}`}>
+            <div className="navbar-end">
+              {navbarLinks.map(navbarLink => (
+                <Link className="navbar-item is-size-5" to={navbarLink.link}>
+                  {navbarLink.text}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </nav>
+    );
+  }
+}
+
+export default Header;
