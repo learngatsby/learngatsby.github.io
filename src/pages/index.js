@@ -32,15 +32,13 @@ const IndexPage = () => (
           </h2>
         </div>
       </div>
-      <div className="columns is-mobile is-centered">
+      <div className="has-text-centered is-mobile">
         {socialMedias.map(socialMedia => (
-          <div className="column is-1 has-text-centered">
-            <a href={socialMedia.link}>
-              <span className="icon is-large">
-                <i className={`fab fa-2x ${socialMedia.icon}`} />
-              </span>
-            </a>
-          </div>
+          <a className="is-2" href={socialMedia.link}>
+            <span className="icon is-large">
+              <i className={`fab fa-2x ${socialMedia.icon}`} />
+            </span>
+          </a>
         ))}
       </div>
     </div>
