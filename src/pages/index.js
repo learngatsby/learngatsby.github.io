@@ -54,9 +54,8 @@ const IndexPage = () => (
         <p>
           Sou desenvolvedor web, trabalho com Front-end criando aplicações
           e páginas Web.
-          Participo de eventos de tecnologia e gosto de estudar produtividade,
-          comunicação e gamificação, que me ajuda a manter organizado e
-          colaborativo.
+          Participo de eventos de tecnologia e gosto de estudar produtividade e
+          comunicação, que me ajuda a manter organizado e colaborativo.
         </p>
         <p>
           Desenvolvo projetos usando principalmente JavaScript com React e Node.
@@ -64,7 +63,7 @@ const IndexPage = () => (
         <p>
           Veja meus
           {' '}
-          <Link to="/page-2/">
+          <Link to="/projects">
             projetos pessoais.
           </Link>
         </p>
