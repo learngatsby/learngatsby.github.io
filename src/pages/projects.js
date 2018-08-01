@@ -40,10 +40,10 @@ const projectCards = [
 
 const Projects = () => (
   <section className="section">
-    <div className="container has-text-centered">
-      <h1 className="title">
-        Projetos
-      </h1>
+    <h1 className="title has-text-centered">
+      Projetos
+    </h1>
+    <div className="container">
       <hr />
       <div className="columns">
         <div className="column is-half is-offset-one-quarter">
@@ -52,7 +52,7 @@ const Projects = () => (
           ))}
         </div>
       </div>
-      <p>
+      <p className="has-text-centered">
         Veja minha
         {' '}
         <Link to="/stack">
