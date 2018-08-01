@@ -2,7 +2,10 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import Card from '../components/Card';
-import projectImage1 from '../assets/porg.png';
+import projectImage1 from '../assets/tic-tac-porg.jpg';
+import projectImage2 from '../assets/memepool.jpg';
+import projectImage3 from '../assets/westworld-intro-creator.jpg';
+import projectImage4 from '../assets/swift-space-battle.png';
 
 const projectCards = [
   {
@@ -16,21 +19,21 @@ const projectCards = [
     title: 'Memepool',
     subtitle: 'Play meme sounds with Discord bot',
     link: 'https://github.com/luanorlandi/memepool',
-    imageLink: projectImage1,
+    imageLink: projectImage2,
     tags: ['Node', 'Heroku'],
   },
   {
     title: 'Westworld Intro Creator',
     subtitle: 'Create your own Westworld opening',
     link: 'https://westworldintrocreator.kassellabs.io/',
-    imageLink: projectImage1,
+    imageLink: projectImage3,
     tags: ['React'],
   },
   {
     title: 'Swift Space Battle',
     subtitle: 'Shoot spaceships in this simple game',
     link: 'https://luanorlandi.github.io/Swift-Space-Battle/',
-    imageLink: projectImage1,
+    imageLink: projectImage4,
     tags: ['Lua', 'MOAI'],
   },
 ];
