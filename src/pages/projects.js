@@ -43,8 +43,8 @@ const Projects = () => (
     <h1 className="title has-text-centered">
       Projetos
     </h1>
+    <hr />
     <div className="container">
-      <hr />
       <div className="columns">
         <div className="column is-half is-offset-one-quarter">
           {projectCards.map(projectCard => (
