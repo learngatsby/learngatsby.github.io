@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 const Stack = () => (
-  <section className="section">
+  <section className="section is-size-4-desktop is-size-5-touch">
     <Helmet
       script={[
         {

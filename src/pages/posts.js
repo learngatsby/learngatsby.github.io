@@ -14,7 +14,7 @@ const projectCards = [
 ];
 
 const Posts = () => (
-  <section className="section">
+  <section className="section is-size-4-desktop is-size-5-touch">
     <h1 className="title has-text-centered">
       Posts
     </h1>
