@@ -40,11 +40,11 @@ const projectCards = [
 
 const Projects = () => (
   <section className="section is-size-4-desktop is-size-5-touch">
-    <h1 className="title has-text-centered">
+    <h1 className="title has-text-centered has-text-light">
       Projetos
     </h1>
-    <hr />
     <div className="container">
+      <hr />
       <div className="columns">
         <div className="column is-half is-offset-one-quarter">
           {projectCards.map(projectCard => (

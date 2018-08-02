@@ -12,22 +12,20 @@ const socialMedias = [
 
 const IndexPage = () => (
   <div>
-    <div className="section">
+    <div className="container">
       <div className="columns is-mobile">
-        <div className="column level">
-          <div className="level-item">
-            <figure className="image is-128x128">
-              <img
-                className="is-rounded"
-                src={profileImage}
-                alt="Luan Orlandi Profile"
-              />
-            </figure>
-          </div>
-          <h1 className="title level-item">
+        <div className="column">
+          <figure className="photo image is-128x128">
+            <img
+              className="is-rounded"
+              src={profileImage}
+              alt="Luan Orlandi Profile"
+            />
+          </figure>
+          <h1 className="title has-text-centered has-text-light">
             Luan Orlandi
           </h1>
-          <h2 className="subtitle level-item">
+          <h2 className="subtitle has-text-centered has-text-warning">
             Desenvolvedor Web
           </h2>
         </div>
@@ -44,7 +42,7 @@ const IndexPage = () => (
     </div>
     <section className="section is-size-4-desktop is-size-5-touch">
       <div className="container content">
-        <h4 className="title">
+        <h4 className="title has-text-light">
           Olá, eu sou o Luan Orlandi!
           {' '}
           <span role="img" aria-label="wave">

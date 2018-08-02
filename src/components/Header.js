@@ -28,14 +28,14 @@ class Header extends Component {
     const burguerClass = isMenuOpen ? 'is-active' : '';
 
     return (
-      <nav className="navbar has-shadow is-spaced">
+      <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
             <Link className="navbar-item is-size-4" to="/">
               {siteTitle}
             </Link>
             <button
-              className={`button is-white navbar-burger ${burguerClass}`}
+              className={`navbar-burger has-text-light ${burguerClass}`}
               type="button"
               onClick={this.handleMenu}
             >

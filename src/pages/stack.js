@@ -13,11 +13,11 @@ const Stack = () => (
         },
       ]}
     />
-    <h1 className="title has-text-centered">
+    <h1 className="title has-text-centered has-text-light">
       Stack
     </h1>
-    <hr />
     <div className="container has-text-centered">
+      <hr />
       <p className="content">
         Tenho experiências com diversas ferramentas e tecnologias modernas,
         que uso dependendo do projeto.
