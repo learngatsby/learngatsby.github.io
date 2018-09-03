@@ -9,7 +9,7 @@ const projectCards = [
     subtitle: 'Make it fun',
     link: 'https://medium.com/@luanorlandi/learn-react-easily-with-this-rule-a715b818a358',
     imageLink: postImage,
-    tags: ['React', 'Aprender'],
+    tags: ['React'],
   },
 ];
 
@@ -23,7 +23,7 @@ const Posts = () => (
       <div className="columns">
         <div className="column is-half is-offset-one-quarter">
           {projectCards.map(projectCard => (
-            <Card {...projectCard} />
+            <Card key={projectCard.title} {...projectCard} />
           ))}
         </div>
       </div>

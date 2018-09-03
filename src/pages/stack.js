@@ -42,8 +42,9 @@ const Stack = () => (
         Veja meus
         {' '}
         <Link to="/posts">
-          posts.
+          posts
         </Link>
+        {'.'}
       </p>
     </div>
   </section>

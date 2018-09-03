@@ -10,28 +10,28 @@ import projectImage4 from '../assets/swift-space-battle.png';
 const projectCards = [
   {
     title: 'Tic-tac-porg',
-    subtitle: 'Play tic-tac-toe with Star Wars theme',
+    subtitle: 'Jogo da Velha com tema de Star Wars',
     link: 'https://luanorlandi.github.io/tic-tac-porg',
     imageLink: projectImage1,
     tags: ['React', 'PWA'],
   },
   {
     title: 'Memepool',
-    subtitle: 'Discord bot that play meme sounds',
+    subtitle: 'Bot do Discord que toca sons de memes',
     link: 'https://github.com/luanorlandi/memepool',
     imageLink: projectImage2,
     tags: ['Node', 'Heroku'],
   },
   {
     title: 'Westworld Intro Creator',
-    subtitle: 'Create your own Westworld opening',
+    subtitle: 'Crie sua intro do Westworld personalizada',
     link: 'https://westworldintrocreator.kassellabs.io/',
     imageLink: projectImage3,
     tags: ['React'],
   },
   {
     title: 'Swift Space Battle',
-    subtitle: 'Shoot spaceships in this simple game',
+    subtitle: 'Jogo de nave estilo arcade',
     link: 'https://luanorlandi.github.io/Swift-Space-Battle/',
     imageLink: projectImage4,
     tags: ['Lua', 'MOAI'],
@@ -45,10 +45,22 @@ const Projects = () => (
     </h1>
     <div className="container">
       <hr />
+      <p className="has-text-centered">
+        Alguns dos meus projetos de destaque, veja mais no meu
+        {' '}
+        <a
+          href="https://luanorlandi.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        {'.'}
+      </p>
       <div className="columns">
         <div className="column is-half is-offset-one-quarter">
           {projectCards.map(projectCard => (
-            <Card {...projectCard} />
+            <Card key={projectCard.title} {...projectCard} />
           ))}
         </div>
       </div>
@@ -56,8 +68,9 @@ const Projects = () => (
         Veja minha
         {' '}
         <Link to="/stack">
-          stack de ferramentas.
+          stack de ferramentas
         </Link>
+        {'.'}
       </p>
     </div>
   </section>

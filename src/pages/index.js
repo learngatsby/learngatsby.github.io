@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
-import profileImage from '../assets/luan.jpg';
+import profileImage from '../assets/profile.jpg';
 
 const socialMedias = [
   { icon: 'fa-github', link: 'https://github.com/luanorlandi' },
@@ -32,7 +32,12 @@ const IndexPage = () => (
       </div>
       <div className="has-text-centered is-mobile">
         {socialMedias.map(socialMedia => (
-          <a className="is-2" href={socialMedia.link}>
+          <a
+            className="is-2"
+            href={socialMedia.link}
+            rel="noopener noreferrer"
+            key={socialMedia.icon}
+          >
             <span className="icon is-large">
               <i className={`fab fa-2x ${socialMedia.icon}`} />
             </span>
@@ -43,9 +48,9 @@ const IndexPage = () => (
     <section className="section is-size-4-desktop is-size-5-touch">
       <div className="container content">
         <h4 className="title has-text-light">
-          Olá, eu sou o Luan Orlandi!
+          Olá, eu sou Luan Orlandi!
           {' '}
-          <span role="img" aria-label="wave">
+          <span role="img" aria-label="aceno">
             👋
           </span>
         </h4>
@@ -62,8 +67,9 @@ const IndexPage = () => (
           Veja meus
           {' '}
           <Link to="/projects">
-            projetos pessoais.
+            projetos pessoais
           </Link>
+          {'.'}
         </p>
       </div>
     </section>

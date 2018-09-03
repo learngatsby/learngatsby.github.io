@@ -28,7 +28,7 @@ const Card = (props) => {
               </p>
               <div className="tags">
                 {tags.map(tag => (
-                  <span className="tag">
+                  <span className="tag" key={tag}>
                     {tag}
                   </span>
                 ))}
