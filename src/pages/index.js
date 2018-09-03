@@ -3,6 +3,13 @@ import Link from 'gatsby-link';
 
 import profileImage from '../assets/profile.jpg';
 
+const socialMedias = [
+  { icon: 'fa-github', link: 'https://github.com/luanorlandi' },
+  { icon: 'fa-twitter', link: 'https://twitter.com/luanorlandi' },
+  { icon: 'fa-medium', link: 'https://medium.com/@luanorlandi' },
+  { icon: 'fa-linkedin', link: 'https://www.linkedin.com/in/luanorlandi/' },
+];
+
 const IndexPage = () => (
   <div>
     <div className="container">
@@ -22,6 +29,20 @@ const IndexPage = () => (
             Desenvolvedor Web
           </h2>
         </div>
+      </div>
+      <div className="has-text-centered is-mobile">
+        {socialMedias.map(socialMedia => (
+          <a
+            className="is-2"
+            href={socialMedia.link}
+            rel="noopener noreferrer"
+            key={socialMedia.icon}
+          >
+            <span className="icon is-large">
+              <i className={`fab fa-2x ${socialMedia.icon}`} />
+            </span>
+          </a>
+        ))}
       </div>
     </div>
     <section className="section is-size-4-desktop is-size-5-touch">
