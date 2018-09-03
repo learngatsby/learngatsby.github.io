@@ -1,0 +1,33 @@
+{
+  "name": "gatsby-course",
+  "description": "Gatsby course",
+  "version": "1.0.0",
+  "author": "Luan Orlandi <orlandi.luan@gmail.com>",
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "gatsby": "^1.9.277",
+    "gatsby-link": "^1.6.46",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby, course, udemy"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luanorlandi/gatsby-course"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
