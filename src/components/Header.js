@@ -37,7 +37,7 @@ class Header extends Component {
               {siteTitle}
             </Link>
             <button
-              className={`navbar-burger ${burguerClass}`}
+              className={`navbar-burger has-text-light ${burguerClass}`}
               type="button"
               onClick={this.handleMenu}
             >
