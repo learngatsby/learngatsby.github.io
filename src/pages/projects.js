@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 
 import Card from '../components/Card';
 import projectImage1 from '../assets/tic-tac-porg.jpg';
@@ -63,6 +64,14 @@ const Projects = () => (
           ))}
         </div>
       </div>
+      <p className="has-text-centered">
+        Veja minha
+        {' '}
+        <Link to="/stack">
+          stack de ferramentas
+        </Link>
+        {'.'}
+      </p>
     </div>
   </section>
 );

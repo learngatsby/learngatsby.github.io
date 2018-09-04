@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 const Stack = () => (
@@ -37,6 +38,14 @@ const Stack = () => (
           </a>
         </div>
       </div>
+      <p className="has-text-centered">
+        Veja meus
+        {' '}
+        <Link to="/posts">
+          posts
+        </Link>
+        {'.'}
+      </p>
     </div>
   </section>
 );
