@@ -19,7 +19,7 @@ const IndexPage = () => (
             <img
               className="is-rounded"
               src={profileImage}
-              alt="Luan Orlandi Profile"
+              alt="Luan Orlandi portfolio"
             />
           </figure>
           <h1 className="title has-text-centered has-text-light">
