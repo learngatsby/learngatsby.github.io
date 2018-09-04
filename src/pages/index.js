@@ -66,7 +66,7 @@ const IndexPage = () => (
         <p>
           Veja meus
           {' '}
-          <Link to="/page-2">
+          <Link to="/projects">
             projetos pessoais
           </Link>
           {'.'}
