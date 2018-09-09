@@ -39,13 +39,13 @@ const projectCards = [
 ];
 
 const Projects = () => (
-  <section className="section">
+  <section className="section is-size-5-desktop is-size-6-touch">
     <h1 className="title has-text-centered">
       Projetos
     </h1>
     <div className="container">
       <hr />
-      <p className="has-text-centered is-size-5-desktop is-size-6-touch">
+      <p className="has-text-centered">
         Alguns dos meus projetos de destaque, veja mais no meu
         {' '}
         <a href="https://github.com/luanorlandi">
@@ -60,6 +60,12 @@ const Projects = () => (
           ))}
         </div>
       </div>
+      <p className="has-text-centered">
+        Veja minha
+        {' '}
+        <Link to="/stack">stack de ferramentas</Link>
+        {'.'}
+      </p>
     </div>
   </section>
 );

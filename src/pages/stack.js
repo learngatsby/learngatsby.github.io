@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
 
 const Stack = () => (
   <section className="section is-size-5-desktop is-size-6-touch">
@@ -37,6 +38,12 @@ const Stack = () => (
           </a>
         </div>
       </div>
+      <p className="has-text-centered">
+        Veja meus
+        {' '}
+        <Link to="/posts">posts</Link>
+        {'.'}
+      </p>
     </div>
   </section>
 );
