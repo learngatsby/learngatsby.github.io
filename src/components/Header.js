@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 
 const navbarLinks = [
   { title: 'Home', link: '/' },
-  { title: 'Projetos', link: '/page-2' },
+  { title: 'Projetos', link: '/projects' },
 ];
 
 class Header extends Component {

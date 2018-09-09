@@ -38,7 +38,7 @@ const projectCards = [
   },
 ];
 
-const SecondPage = () => (
+const Projects = () => (
   <section className="section">
     <h1 className="title has-text-centered">
       Projetos
@@ -64,4 +64,4 @@ const SecondPage = () => (
   </section>
 );
 
-export default SecondPage;
+export default Projects;

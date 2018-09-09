@@ -57,7 +57,8 @@ const IndexPage = () => (
         <p>
           Veja meus
           {' '}
-          <Link to="/page-2/">projetos pessoais</Link>
+          <Link to="/projects">projetos pessoais</Link>
+          {'.'}
         </p>
       </div>
     </section>
