@@ -20,10 +20,10 @@ const IndexPage = () => (
           alt="Luan Orlandi portfolio"
         />
       </figure>
-      <h1 className="title has-text-centered">
+      <h1 className="title has-text-light has-text-centered">
         Luan Orlandi
       </h1>
-      <h2 className="subtitle has-text-centered">
+      <h2 className="subtitle has-text-warning has-text-centered">
         Desenvolvedor Web
       </h2>
     </div>
@@ -38,7 +38,7 @@ const IndexPage = () => (
     </div>
     <section className="section is-size-4-desktop is-size-5-touch">
       <div className="container content">
-        <h4 className="title">
+        <h4 className="title has-text-light">
           Olá, eu sou Luan Orlandi!
           {' '}
           <span role="img" aria-label="aceno">

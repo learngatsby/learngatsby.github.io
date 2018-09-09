@@ -2,7 +2,7 @@ import React from 'react';
 
 const NotFoundPage = () => (
   <section className="section">
-    <h1 className="title has-text-centered">
+    <h1 className="title has-text-light has-text-centered">
       NOT FOUND
     </h1>
     <div className="container">

@@ -13,7 +13,7 @@ const Stack = () => (
         },
       ]}
     />
-    <h1 className="title has-text-centered">
+    <h1 className="title has-text-light has-text-centered">
       Stack
     </h1>
     <div className="container has-text-centered">
@@ -29,7 +29,7 @@ const Stack = () => (
         <div className="column is-half">
           <a
             frameBorder="0"
-            data-theme="light"
+            data-theme="dark"
             data-layers="1,2,3,4"
             data-stack-embed="true"
             href="https://embed.stackshare.io/stacks/embed/8c28185217d10812f81a6efc56aff4"
