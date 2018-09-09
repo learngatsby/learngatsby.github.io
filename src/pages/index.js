@@ -41,7 +41,7 @@ const IndexPage = () => (
         <h4 className="title has-text-light">
           Olá, eu sou Luan Orlandi!
           {' '}
-          <span role="img" aria-label="aceno">
+          <span className="emoji" role="img" aria-label="aceno">
             👋
           </span>
         </h4>
