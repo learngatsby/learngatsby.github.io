@@ -24,7 +24,7 @@ const projectCards = [
   },
   {
     title: 'Memepool',
-    subtitle: 'bot do Discord que toca sons de memes',
+    subtitle: 'Bot do Discord que toca sons de memes',
     link: 'https://github.com/luanorlandi/memepool',
     imageLink: projectImage3,
     tags: ['Node', 'Heroku'],
