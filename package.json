@@ -21,7 +21,8 @@
   "scripts": {
     "build": "gatsby build",
     "start": "gatsby develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
     "eslint": "^5.5.0",
@@ -30,6 +31,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
     "gatsby-plugin-sass": "^1.0.26",
+    "gh-pages": "^1.2.0",
     "sass-lint": "^1.12.1"
   },
   "repository": {
