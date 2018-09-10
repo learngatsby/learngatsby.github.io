@@ -1,9 +1,9 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import Link from 'gatsby-link';
 
 const Stack = () => (
-  <section className="section is-size-4-desktop is-size-5-touch">
+  <section className="section is-size-5-desktop is-size-6-touch">
     <Helmet
       script={[
         {
@@ -13,20 +13,20 @@ const Stack = () => (
         },
       ]}
     />
-    <h1 className="title has-text-centered has-text-light">
+    <h1 className="title has-text-light has-text-centered">
       Stack
     </h1>
     <div className="container has-text-centered">
       <hr />
       <p className="content">
-        Tenho experiências com diversas ferramentas e tecnologias modernas,
-        que uso dependendo do projeto.
+        Tenho experiência com diversas ferramentas e tecnologias modernas,
+        que uso dependendo projeto.
       </p>
       <p className="content">
         Compartilho minha stack no StackShare:
       </p>
-      <div className="columns">
-        <div className="column is-half is-offset-one-quarter">
+      <div className="columns is-centered">
+        <div className="column is-half">
           <a
             frameBorder="0"
             data-theme="dark"
@@ -41,9 +41,8 @@ const Stack = () => (
       <p className="has-text-centered">
         Veja meus
         {' '}
-        <Link to="/posts">
-          posts.
-        </Link>
+        <Link to="/posts">posts</Link>
+        {'.'}
       </p>
     </div>
   </section>

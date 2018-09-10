@@ -1,9 +1,13 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "gatsby-course",
+  "description": "Gatsby course",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Luan Orlandi <orlandi.luan@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.4",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "babel-eslint": "^9.0.0",
     "bulma": "^0.7.1",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
@@ -11,28 +15,25 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby, course, udemy"
   ],
   "license": "MIT",
   "scripts": {
-    "start": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gatsby develop",
+    "serve": "gatsby serve"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^17.0.0",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react": "^7.11.1",
     "gatsby-plugin-sass": "^1.0.26",
     "sass-lint": "^1.12.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/gatsbyjs/gatsby-course"
   }
 }

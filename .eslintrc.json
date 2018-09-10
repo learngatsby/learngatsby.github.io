@@ -10,11 +10,13 @@
       1, {
         "extensions": [".js", ".jsx"]
       }
-    ]
+    ],
+    "react/jsx-key": 2
   },
   "settings": {
     "import/core-modules": [
-      "react"
+      "react",
+      "prop-types"
     ]
   },
   "globals": {

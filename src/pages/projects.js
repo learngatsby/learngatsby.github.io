@@ -2,62 +2,69 @@ import React from 'react';
 import Link from 'gatsby-link';
 
 import Card from '../components/Card';
-import projectImage1 from '../assets/tic-tac-porg.jpg';
-import projectImage2 from '../assets/memepool.jpg';
-import projectImage3 from '../assets/westworld-intro-creator.jpg';
-import projectImage4 from '../assets/swift-space-battle.png';
+import projectImage from '../assets/gatsby.png';
+import projectImage2 from '../assets/tic-tac-porg.jpg';
+import projectImage3 from '../assets/memepool.jpg';
+import projectImage4 from '../assets/westworld-intro-creator.jpg';
 
 const projectCards = [
   {
+    title: 'Gatsby Course',
+    subtitle: 'Curso no Udemy sobre Gatsby',
+    link: 'https://github.com/luanorlandi/gatsby-course',
+    imageLink: projectImage,
+    tags: ['Gatsby', 'React'],
+  },
+  {
     title: 'Tic-tac-porg',
-    subtitle: 'Play tic-tac-toe with Star Wars theme',
+    subtitle: 'Jogo da Velha com tema de Star Wars',
     link: 'https://luanorlandi.github.io/tic-tac-porg',
-    imageLink: projectImage1,
+    imageLink: projectImage2,
     tags: ['React', 'PWA'],
   },
   {
     title: 'Memepool',
-    subtitle: 'Discord bot that play meme sounds',
+    subtitle: 'Bot do Discord que toca sons de memes',
     link: 'https://github.com/luanorlandi/memepool',
-    imageLink: projectImage2,
+    imageLink: projectImage3,
     tags: ['Node', 'Heroku'],
   },
   {
     title: 'Westworld Intro Creator',
-    subtitle: 'Create your own Westworld opening',
+    subtitle: 'Crie sua intro do Westworld personalizada',
     link: 'https://westworldintrocreator.kassellabs.io/',
-    imageLink: projectImage3,
-    tags: ['React'],
-  },
-  {
-    title: 'Swift Space Battle',
-    subtitle: 'Shoot spaceships in this simple game',
-    link: 'https://luanorlandi.github.io/Swift-Space-Battle/',
     imageLink: projectImage4,
-    tags: ['Lua', 'MOAI'],
+    tags: ['React'],
   },
 ];
 
 const Projects = () => (
-  <section className="section is-size-4-desktop is-size-5-touch">
-    <h1 className="title has-text-centered has-text-light">
+  <section className="section is-size-5-desktop is-size-6-touch">
+    <h1 className="title has-text-light has-text-centered">
       Projetos
     </h1>
     <div className="container">
       <hr />
-      <div className="columns">
-        <div className="column is-half is-offset-one-quarter">
+      <p className="has-text-centered">
+        Alguns dos meus projetos de destaque, veja mais no meu
+        {' '}
+        <a href="https://github.com/luanorlandi">
+          GitHub
+        </a>
+        {'.'}
+      </p>
+      <div className="columns is-centered">
+        <div className="column is-half">
           {projectCards.map(projectCard => (
-            <Card {...projectCard} />
+            <Card key={projectCard.title} {...projectCard} />
           ))}
         </div>
       </div>
       <p className="has-text-centered">
         Veja minha
         {' '}
-        <Link to="/stack">
-          stack de ferramentas.
-        </Link>
+        <Link to="/stack">stack de ferramentas</Link>
+        {'.'}
       </p>
     </div>
   </section>

@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 
 const navbarLinks = [
-  { text: 'Home', link: '/' },
-  { text: 'Projetos', link: '/projects' },
-  { text: 'Stack', link: '/stack' },
-  { text: 'Posts', link: '/posts' },
+  { title: 'Home', link: '/' },
+  { title: 'Projetos', link: '/projects' },
+  { title: 'Stack', link: '/stack' },
+  { title: 'Posts', link: '/posts' },
 ];
 
 class Header extends Component {
@@ -22,21 +22,28 @@ class Header extends Component {
     }));
   }
 
+  closeMenu = () => this.setState({ isMenuOpen: false });
+
   render = () => {
     const { siteTitle } = this.props;
     const { isMenuOpen } = this.state;
-    const burguerClass = isMenuOpen ? 'is-active' : '';
+    const burgerClass = isMenuOpen ? 'is-active' : '';
 
     return (
       <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
-            <Link className="navbar-item is-size-4" to="/">
+            <Link
+              className="navbar-item is-size-4"
+              to="/"
+              onClick={this.closeMenu}
+            >
               {siteTitle}
             </Link>
             <button
-              className={`navbar-burger has-text-light ${burguerClass}`}
+              className={`navbar-burger has-text-light ${burgerClass}`}
               type="button"
+              aria-label="menu"
               onClick={this.handleMenu}
             >
               <span aria-hidden="true" />
@@ -44,11 +51,16 @@ class Header extends Component {
               <span aria-hidden="true" />
             </button>
           </div>
-          <div className={`navbar-menu ${burguerClass}`}>
+          <div className={`navbar-menu ${burgerClass}`}>
             <div className="navbar-end">
               {navbarLinks.map(navbarLink => (
-                <Link className="navbar-item is-size-5" to={navbarLink.link}>
-                  {navbarLink.text}
+                <Link
+                  className="navbar-item is-size-5"
+                  to={navbarLink.link}
+                  key={navbarLink.title}
+                  onClick={this.closeMenu}
+                >
+                  {navbarLink.title}
                 </Link>
               ))}
             </div>
