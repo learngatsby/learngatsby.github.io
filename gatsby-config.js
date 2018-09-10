@@ -1,7 +1,7 @@
 module.exports = {
-  pathPrefix: '/gatsby-course',
   siteMetadata: {
     title: 'Luan Orlandi',
+    url: 'https://luanorlandi.github.io',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
