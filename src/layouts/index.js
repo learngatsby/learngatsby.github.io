@@ -12,7 +12,9 @@ const Layout = ({ children, data }) => (
         { name: 'description', content: 'Luan Orlandi' },
         { name: 'keywords', content: 'desenvolvedor, react, gatsby' },
       ]}
-    />
+    >
+      <html lang="pt" />
+    </Helmet>
     <Header siteTitle={data.site.siteMetadata.title} />
     <div>
       {children()}

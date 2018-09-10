@@ -40,7 +40,11 @@ class IndexPage extends Component {
       </div>
       <div className="has-text-centered">
         {socialMedias.map(socialMedia => (
-          <a href={socialMedia.link} key={socialMedia.icon}>
+          <a
+            href={socialMedia.link}
+            aria-label={socialMedia.icon}
+            key={socialMedia.icon}
+          >
             <span className="icon is-large">
               <FontAwesomeIcon className="fab fa-2x" icon={['fab', socialMedia.icon]} />
             </span>

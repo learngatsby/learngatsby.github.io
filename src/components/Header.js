@@ -43,6 +43,7 @@ class Header extends Component {
             <button
               className={`navbar-burger has-text-light ${burgerClass}`}
               type="button"
+              aria-label="menu"
               onClick={this.handleMenu}
             >
               <span aria-hidden="true" />
