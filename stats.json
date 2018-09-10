@@ -1,0 +1,64 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-f7ae5833c8d143720058.js",
+      "component---src-pages-index-js-f7ae5833c8d143720058.js.map"
+    ],
+    "path---": [
+      "path----b818a18122cafb075059.js",
+      "path----b818a18122cafb075059.js.map"
+    ],
+    "path---stack": [
+      "path---stack-a0e39f21c11f6a62c5ab.js",
+      "path---stack-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-99a1773fd7b097d93686.js",
+      "component---src-layouts-index-js-99a1773fd7b097d93686.js.map"
+    ],
+    "path---posts": [
+      "path---posts-a0e39f21c11f6a62c5ab.js",
+      "path---posts-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-9514289f0f9cf704bceb.js",
+      "component---src-pages-404-js-9514289f0f9cf704bceb.js.map"
+    ],
+    "commons": [
+      "commons-a07bddd5c4350f4b84cb.js",
+      "commons-a07bddd5c4350f4b84cb.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-705ef4a8f348ff0f2f9f.js",
+      "component---src-pages-projects-js-705ef4a8f348ff0f2f9f.js.map"
+    ],
+    "app": [
+      "app-4e3bc1ad75d0faa8428d.js",
+      "app-4e3bc1ad75d0faa8428d.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-posts-js": [
+      "component---src-pages-posts-js-4e2ecdc439415c55cbd6.js",
+      "component---src-pages-posts-js-4e2ecdc439415c55cbd6.js.map"
+    ],
+    "component---src-pages-stack-js": [
+      "component---src-pages-stack-js-fc7d8bbcce77fb1ddaf9.js",
+      "component---src-pages-stack-js-fc7d8bbcce77fb1ddaf9.js.map"
+    ]
+  }
+}
