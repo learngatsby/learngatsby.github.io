@@ -3,7 +3,7 @@ const pathPrefix = '/gatsby-course';
 module.exports = {
   pathPrefix,
   siteMetadata: {
-    title: process.env.GOOGLE_ANALYTICS_GATSBY_COURSE,
+    title: 'Luan Orlandi',
     url: `https://luanorlandi.github.io${pathPrefix}`,
   },
   plugins: [
