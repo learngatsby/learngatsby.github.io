@@ -2,6 +2,8 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
+import ogImage from '../assets/meta/luanorlandi.jpg';
+import favicon from '../assets/meta/favicon.ico';
 import '../styles/index.scss';
 
 const Layout = ({ children, data }) => (
@@ -16,7 +18,7 @@ const Layout = ({ children, data }) => (
         { property: 'og:type', content: 'website' },
         { property: 'og:title', content: data.site.siteMetadata.title },
         { property: 'og:description', content: 'Desenvolvedor Front-end, criando apps e páginas Web' },
-        { property: 'og:image', content: `${data.site.siteMetadata.url}/luanorlandi-v1.jpg` },
+        { property: 'og:image', content: `${data.site.siteMetadata.url}${ogImage}` },
         { property: 'og:image:alt', content: 'Desenvolvedor Front-end, criando apps e páginas Web' },
         { property: 'og:image:type', content: 'image/jpg' },
         { property: 'og:image:width', content: '1365' },
@@ -25,7 +27,7 @@ const Layout = ({ children, data }) => (
       link={[
         {
           rel: 'shortcut icon',
-          href: `${data.site.siteMetadata.url}/favicon-v1.ico`,
+          href: `${data.site.siteMetadata.url}${favicon}`,
         },
       ]}
     >
