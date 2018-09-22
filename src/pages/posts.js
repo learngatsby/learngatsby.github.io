@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Layout from '../components/layout';
 import Card from '../components/Card';
 import postImage from '../assets/learn-react.jpg';
 
@@ -14,21 +15,23 @@ const postCards = [
 ];
 
 const Posts = () => (
-  <section className="section">
-    <h1 className="title has-text-light has-text-centered">
-      Posts
-    </h1>
-    <div className="container">
-      <hr />
-      <div className="columns is-centered">
-        <div className="column is-half">
-          {postCards.map(postCard => (
-            <Card key={postCard.title} {...postCard} />
-          ))}
+  <Layout>
+    <section className="section">
+      <h1 className="title has-text-light has-text-centered">
+        Posts
+      </h1>
+      <div className="container">
+        <hr />
+        <div className="columns is-centered">
+          <div className="column is-half">
+            {postCards.map(postCard => (
+              <Card key={postCard.title} {...postCard} />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </Layout>
 );
 
 export default Posts;
