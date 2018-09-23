@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{109:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Luan Orlandi",url:"https://luanorlandi.github.io/gatsby-course"}}},layoutContext:{}}}});
-//# sourceMappingURL=path----3c37bdef29970dd69812.js.map

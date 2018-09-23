@@ -1,2 +1,0 @@
-webpackJsonp([60335399758886],{109:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Luan Orlandi",url:"https://luanorlandi.github.io/"}}},layoutContext:{}}}});
-//# sourceMappingURL=path----fe8652a3a214c8b31a33.js.map
