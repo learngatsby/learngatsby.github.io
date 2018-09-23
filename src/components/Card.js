@@ -1,12 +1,6 @@
 import React from 'react';
 
-const Card = ({
-  title,
-  subtitle,
-  link,
-  imageLink,
-  tags,
-}) => (
+const Card = ({ title, subtitle, link, imageLink, tags }) => (
   <a href={link}>
     <div className="card">
       <div className="card-content">
@@ -25,7 +19,9 @@ const Card = ({
             </p>
             <div className="tags">
               {tags.map(tag => (
-                <span className="tag" key={tag}>{tag}</span>
+                <span className="tag" key={tag}>
+                  {tag}
+                </span>
               ))}
             </div>
           </div>

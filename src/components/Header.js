@@ -20,9 +20,11 @@ class Header extends Component {
     this.setState(previousState => ({
       isMenuOpen: !previousState.isMenuOpen,
     }));
-  }
+  };
 
-  closeMenu = () => this.setState({ isMenuOpen: false });
+  closeMenu = () => {
+    this.setState({ isMenuOpen: false });
+  };
 
   render = () => {
     const { siteTitle } = this.props;
@@ -68,7 +70,7 @@ class Header extends Component {
         </div>
       </nav>
     );
-  }
+  };
 }
 
 export default Header;

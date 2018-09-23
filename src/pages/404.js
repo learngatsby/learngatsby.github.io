@@ -1,13 +1,11 @@
 import React from 'react';
 
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 
 const NotFoundPage = () => (
   <Layout>
     <section className="section">
-      <h1 className="title has-text-light has-text-centered">
-        NOT FOUND
-      </h1>
+      <h1 className="title has-text-light has-text-centered">NOT FOUND</h1>
       <div className="container">
         <hr />
         <p className="has-text-centered">

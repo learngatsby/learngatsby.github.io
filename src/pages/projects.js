@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import Card from '../components/Card';
 import projectImage from '../assets/gatsby.png';
 import projectImage2 from '../assets/tic-tac-porg.jpg';
@@ -42,17 +42,12 @@ const projectCards = [
 const Projects = () => (
   <Layout>
     <section className="section is-size-5-desktop is-size-6-touch">
-      <h1 className="title has-text-light has-text-centered">
-        Projetos
-      </h1>
+      <h1 className="title has-text-light has-text-centered">Projetos</h1>
       <div className="container">
         <hr />
         <p className="has-text-centered">
-          Alguns dos meus projetos de destaque, veja mais no meu
-          {' '}
-          <a href="https://github.com/luanorlandi">
-            GitHub
-          </a>
+          Alguns dos meus projetos de destaque, veja mais no meu{' '}
+          <a href="https://github.com/luanorlandi">GitHub</a>
           {'.'}
         </p>
         <div className="columns is-centered">
@@ -63,10 +58,7 @@ const Projects = () => (
           </div>
         </div>
         <p className="has-text-centered">
-          Veja minha
-          {' '}
-          <Link to="/stack">stack de ferramentas</Link>
-          {'.'}
+          Veja minha <Link to="/stack">stack de ferramentas</Link>.
         </p>
       </div>
     </section>
