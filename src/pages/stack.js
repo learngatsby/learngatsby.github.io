@@ -1,5 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
@@ -34,6 +35,9 @@ const Stack = () => (
             </a>
           </div>
         </div>
+        <p className="has-text-centered">
+          Veja meus <Link to="/posts">posts</Link>.
+        </p>
       </div>
     </section>
   </Layout>

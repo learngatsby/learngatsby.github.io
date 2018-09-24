@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import Card from '../components/card';
@@ -56,6 +57,9 @@ const Projects = () => (
             ))}
           </div>
         </div>
+        <p className="has-text-centered">
+          Veja minha <Link to="/stack">stack de ferramentas</Link>.
+        </p>
       </div>
     </section>
   </Layout>
