@@ -10,8 +10,8 @@ module.exports = {
         name: 'Luan Orlandi',
         short_name: 'Luan Orlandi',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#202021',
+        theme_color: '#303030',
         display: 'minimal-ui',
         icon: 'src/assets/gatsby-icon.png', // This path is relative to the root of the site.
       },

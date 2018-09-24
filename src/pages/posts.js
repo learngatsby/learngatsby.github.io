@@ -18,7 +18,7 @@ const postCards = [
 const Posts = () => (
   <Layout>
     <section className="section">
-      <h1 className="title has-text-centered">Posts</h1>
+      <h1 className="title has-text-light has-text-centered">Posts</h1>
       <div className="container">
         <hr />
         <div className="columns is-centered">

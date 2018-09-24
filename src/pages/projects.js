@@ -42,7 +42,7 @@ const projectCards = [
 const Projects = () => (
   <Layout>
     <section className="section is-size-5-desktop is-size-6-touch">
-      <h1 className="title has-text-centered">Projetos</h1>
+      <h1 className="title has-text-light has-text-centered">Projetos</h1>
       <div className="container">
         <hr />
         <p className="content has-text-centered">
