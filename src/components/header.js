@@ -1,33 +1,74 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React, { Component } from 'react';
+import { Link } from 'gatsby';
 
-const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
-)
+const navbarLinks = [
+  { title: 'Home', link: '/' },
+  { title: 'Projetos', link: '/page-2' },
+];
 
-export default Header
+class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMenuOpen: false,
+    };
+  }
+
+  handleMenu = () => {
+    this.setState(previousState => ({
+      isMenuOpen: !previousState.isMenuOpen,
+    }));
+  };
+
+  closeMenu = () => {
+    this.setState({ isMenuOpen: false });
+  };
+
+  render = () => {
+    const { siteTitle } = this.props;
+    const { isMenuOpen } = this.state;
+    const burgerClass = isMenuOpen ? 'is-active' : '';
+
+    return (
+      <nav className="navbar has-shadow is-spaced">
+        <div className="container">
+          <div className="navbar-brand">
+            <Link
+              className="navbar-item is-size-4"
+              to="/"
+              onClick={this.closeMenu}
+            >
+              {siteTitle}
+            </Link>
+            <button
+              className={`navbar-burger ${burgerClass}`}
+              type="button"
+              aria-label="menu"
+              onClick={this.handleMenu}
+            >
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+            </button>
+          </div>
+          <div className={`navbar-menu ${burgerClass}`}>
+            <div className="navbar-end">
+              {navbarLinks.map(navbarLink => (
+                <Link
+                  className="navbar-item is-size-5"
+                  to={navbarLink.link}
+                  key={navbarLink.title}
+                  onClick={this.closeMenu}
+                >
+                  {navbarLink.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </nav>
+    );
+  };
+}
+
+export default Header;
