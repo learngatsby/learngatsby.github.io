@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Luan Orlandi',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Luan Orlandi',
+        short_name: 'Luan Orlandi',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
