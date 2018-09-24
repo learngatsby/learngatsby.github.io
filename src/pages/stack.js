@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { Link } from 'gatsby';
 
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 
 const Stack = () => (
   <Layout>
@@ -19,7 +19,7 @@ const Stack = () => (
         <hr />
         <p className="content">
           Tenho experiência com diversas ferramentas e tecnologias modernas, que
-          uso dependendo projeto.
+          uso dependendo do projeto.
         </p>
         <p className="content">Compartilho minha stack no StackShare:</p>
         <div className="columns is-centered">

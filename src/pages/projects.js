@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Layout from '../components/Layout';
-import Card from '../components/Card';
-import projectImage from '../assets/gatsby.png';
+import Layout from '../components/layout';
+import Card from '../components/card';
+import projectImage from '../assets/gatsby-icon.png';
 import projectImage2 from '../assets/tic-tac-porg.jpg';
 import projectImage3 from '../assets/memepool.jpg';
 import projectImage4 from '../assets/westworld-intro-creator.jpg';
@@ -45,7 +45,7 @@ const Projects = () => (
       <h1 className="title has-text-light has-text-centered">Projetos</h1>
       <div className="container">
         <hr />
-        <p className="has-text-centered">
+        <p className="content has-text-centered">
           Alguns dos meus projetos de destaque, veja mais no meu{' '}
           <a href="https://github.com/luanorlandi">GitHub</a>
           {'.'}

@@ -4,7 +4,6 @@ module.exports = {
   pathPrefix,
   siteMetadata: {
     title: 'Luan Orlandi',
-    url: `https://luanorlandi.github.io${pathPrefix}`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -13,7 +12,8 @@ module.exports = {
       options: {
         name: 'Luan Orlandi',
         short_name: 'Luan Orlandi',
-        start_url: '/',
+        start_url:
+          process.env.NODE_ENV === 'production' ? `${pathPrefix}/` : '/',
         background_color: '#202021',
         theme_color: '#303030',
         display: 'minimal-ui',
@@ -29,13 +29,6 @@ module.exports = {
         head: true,
         anonymize: true,
         respectDNT: true,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-hotjar',
-      options: {
-        id: process.env.HOTJAR_ID_GATSBY_COURSE,
-        sv: process.env.HOTJAR_SNIPPET_VERSION_GATSBY_COURSE,
       },
     },
   ],

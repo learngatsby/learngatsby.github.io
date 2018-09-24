@@ -729,8 +729,8 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.2.tgz#54c5a964462be3d4d78af631363c18d6fa91ac26"
 
 "@reach/router@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.1.1.tgz#24a5b20f1cc9e55e2cbcdc454fb82c94db479a81"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.2.0.tgz#27d8e12e716f9ea99e370f5ec67cb2b17f619f2f"
   dependencies:
     create-react-context "^0.2.1"
     invariant "^2.2.3"
@@ -775,8 +775,8 @@
   resolved "https://registry.yarnpkg.com/@types/mkdirp/-/mkdirp-0.3.29.tgz#7f2ad7ec55f914482fc9b1ec4bb1ae6028d46066"
 
 "@types/node@*":
-  version "10.10.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.10.2.tgz#2a55b8d66f6945efc5da38489774e551248aa169"
+  version "10.10.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.10.3.tgz#09c75a4ad84d6a3d286790bdd9489a4f8ee9906c"
 
 "@types/node@^7.0.11":
   version "7.0.70"
@@ -962,7 +962,7 @@ acorn-dynamic-import@^3.0.0:
 
 acorn-jsx@^3.0.0:
   version "3.0.1"
-  resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"
+  resolved "http://registry.npmjs.org/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"
   dependencies:
     acorn "^3.0.4"
 
@@ -1004,8 +1004,8 @@ ajv@^5.1.0, ajv@^5.2.3, ajv@^5.3.0:
     json-schema-traverse "^0.3.0"
 
 ajv@^6.1.0:
-  version "6.5.3"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.5.3.tgz#71a569d189ecf4f4f321224fecb166f071dd90f9"
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.5.4.tgz#247d5274110db653706b550fcc2b797ca28cfc59"
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -1961,7 +1961,7 @@ buffer-alloc-unsafe@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz#bd7dc26ae2972d0eda253be061dba992349c19f0"
 
-buffer-alloc@^1.1.0:
+buffer-alloc@^1.1.0, buffer-alloc@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/buffer-alloc/-/buffer-alloc-1.2.0.tgz#890dd90d923a873e08e10e5fd51a57e5b7cce0ec"
   dependencies:
@@ -2106,8 +2106,8 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000864, caniuse-lite@^1.0.30000884:
-  version "1.0.30000886"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000886.tgz#2127186c4f57da10d3ba26fc3e87dce4a5ddd3ae"
+  version "1.0.30000887"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000887.tgz#1769458c27bbdcf61b0cb6b5072bb6cd11fd9c23"
 
 capture-stack-trace@^1.0.0:
   version "1.0.1"
@@ -4053,12 +4053,6 @@ gatsby-plugin-google-analytics@^2.0.6:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-hotjar@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-hotjar/-/gatsby-plugin-hotjar-1.0.1.tgz#f5703d7d2a354752e20230a0074d53c7287d8950"
-  dependencies:
-    babel-runtime "^6.26.0"
-
 gatsby-plugin-manifest@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.2.tgz#a978228dc9c252812f8592d7fc51a92769b3f004"
@@ -5982,8 +5976,8 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
 needle@^2.2.1:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/needle/-/needle-2.2.3.tgz#c1b04da378cd634d8befe2de965dc2cfb0fd65ca"
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/needle/-/needle-2.2.4.tgz#51931bff82533b1928b7d1d69e01f1b00ffd2a4e"
   dependencies:
     debug "^2.1.2"
     iconv-lite "^0.4.4"
@@ -8435,15 +8429,15 @@ tar-fs@^1.13.0:
     tar-stream "^1.1.2"
 
 tar-stream@^1.1.2:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-1.6.1.tgz#f84ef1696269d6223ca48f6e1eeede3f7e81f395"
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/tar-stream/-/tar-stream-1.6.2.tgz#8ea55dab37972253d9a9af90fdcd559ae435c555"
   dependencies:
     bl "^1.0.0"
-    buffer-alloc "^1.1.0"
+    buffer-alloc "^1.2.0"
     end-of-stream "^1.0.0"
     fs-constants "^1.0.0"
     readable-stream "^2.3.0"
-    to-buffer "^1.1.0"
+    to-buffer "^1.1.1"
     xtend "^4.0.0"
 
 tar@^2.0.0:
@@ -8546,7 +8540,7 @@ to-arraybuffer@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/to-arraybuffer/-/to-arraybuffer-1.0.1.tgz#7d229b1fcc637e466ca081180836a7aabff83f43"
 
-to-buffer@^1.1.0:
+to-buffer@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/to-buffer/-/to-buffer-1.1.1.tgz#493bd48f62d7c43fcded313a03dcadb2e1213a80"
 
