@@ -4,6 +4,13 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import profileImage from '../assets/profile.jpg';
 
+const socialMedias = [
+  { icon: 'fa-github', link: 'https://github.com/luanorlandi' },
+  { icon: 'fa-twitter', link: 'https://twitter.com/luanorlandi' },
+  { icon: 'fa-medium', link: 'https://medium.com/@luanorlandi' },
+  { icon: 'fa-linkedin', link: 'https://linkedin.com/in/luanorlandi/' },
+];
+
 const IndexPage = () => (
   <Layout>
     <div className="container">
@@ -12,6 +19,19 @@ const IndexPage = () => (
       </figure>
       <h1 className="title has-text-centered">Luan Orlandi</h1>
       <h2 className="subtitle has-text-centered">Desenvolvedor Web</h2>
+    </div>
+    <div className="has-text-centered">
+      {socialMedias.map(socialMedia => (
+        <a
+          href={socialMedia.link}
+          aria-label={socialMedia.icon}
+          key={socialMedia.icon}
+        >
+          <span className="icon is-large">
+            <i className={`fab fa-2x ${socialMedia.icon}`} />
+          </span>
+        </a>
+      ))}
     </div>
     <section className="section is-size-4-desktop is-size-5-touch">
       <div className="container content">
