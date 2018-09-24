@@ -1,14 +1,24 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faGithub,
+  faTwitter,
+  faMedium,
+  faLinkedin,
+} from '@fortawesome/fontawesome-free-brands';
 
 import Layout from '../components/layout';
 import profileImage from '../assets/profile.jpg';
 
+library.add(faGithub, faTwitter, faMedium, faLinkedin);
+
 const socialMedias = [
-  { icon: 'fa-github', link: 'https://github.com/luanorlandi' },
-  { icon: 'fa-twitter', link: 'https://twitter.com/luanorlandi' },
-  { icon: 'fa-medium', link: 'https://medium.com/@luanorlandi' },
-  { icon: 'fa-linkedin', link: 'https://linkedin.com/in/luanorlandi/' },
+  { icon: 'github', link: 'https://github.com/luanorlandi' },
+  { icon: 'twitter', link: 'https://twitter.com/luanorlandi' },
+  { icon: 'medium', link: 'https://medium.com/@luanorlandi' },
+  { icon: 'linkedin', link: 'https://linkedin.com/in/luanorlandi/' },
 ];
 
 const IndexPage = () => (
@@ -30,7 +40,10 @@ const IndexPage = () => (
           key={socialMedia.icon}
         >
           <span className="icon is-large">
-            <i className={`fab fa-2x ${socialMedia.icon}`} />
+            <FontAwesomeIcon
+              className="fab fa-2x"
+              icon={['fab', socialMedia.icon]}
+            />
           </span>
         </a>
       ))}
