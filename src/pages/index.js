@@ -51,7 +51,7 @@ const IndexPage = () => (
           Desenvolvo projetos usando principalmente JavaScript com React e Node.
         </p>
         <p>
-          Veja meus <Link to="/page-2">projetos pessoais</Link>.
+          Veja meus <Link to="/projects">projetos pessoais</Link>.
         </p>
       </div>
     </section>
