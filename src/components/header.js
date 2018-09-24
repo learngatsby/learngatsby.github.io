@@ -32,7 +32,7 @@ class Header extends Component {
     const burgerClass = isMenuOpen ? 'is-active' : '';
 
     return (
-      <nav className="navbar has-shadow is-spaced">
+      <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
             <Link
