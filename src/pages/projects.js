@@ -56,6 +56,9 @@ const Projects = () => (
             ))}
           </div>
         </div>
+        <p className="has-text-centered">
+          Veja minha <Link to="/stack">stack de ferramentas</Link>.
+        </p>
       </div>
     </section>
   </Layout>

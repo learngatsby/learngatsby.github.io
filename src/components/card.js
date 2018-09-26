@@ -1,5 +1,4 @@
 import React from 'react';
-import { Tags } from 'opentracing';
 
 const Card = ({ title, subtitle, link, imageLink, tags }) => (
   <a href={link}>

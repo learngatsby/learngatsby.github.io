@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 const navbarLinks = [
   { title: 'Home', link: '/' },
   { title: 'Projetos', link: '/projects' },
+  { title: 'Stack', link: '/stack' },
   { title: 'Posts', link: '/posts' },
 ];
 
