@@ -49,12 +49,12 @@ const Projects = () => (
           Alguns dos meus projetos de destaque, veja mais no meu{' '}
           <a href="https://github.com/luanorlandi">GitHub</a>.
         </p>
-      </div>
-      <div className="columns is-centered">
-        <div className="column is-half">
-          {projectCards.map(projectCard => (
-            <Card key={projectCard.title} {...projectCard} />
-          ))}
+        <div className="columns is-centered">
+          <div className="column is-half">
+            {projectCards.map(projectCard => (
+              <Card key={projectCard.title} {...projectCard} />
+            ))}
+          </div>
         </div>
       </div>
     </section>
