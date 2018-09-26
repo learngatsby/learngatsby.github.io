@@ -39,7 +39,7 @@ const projectCards = [
   },
 ];
 
-const SecondPage = () => (
+const Projects = () => (
   <Layout>
     <section className="section is-size-5-desktop is-size-6-touch">
       <div className="container">
@@ -61,4 +61,4 @@ const SecondPage = () => (
   </Layout>
 );
 
-export default SecondPage;
+export default Projects;
