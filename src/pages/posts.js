@@ -19,7 +19,7 @@ const Posts = () => (
   <Layout>
     <section className="section is-size-5-desktop is-size-6-touch">
       <div className="container">
-        <h1 className="title has-text-centered">Posts</h1>
+        <h1 className="title has-text-light has-text-centered">Posts</h1>
         <hr />
         <div className="columns is-centered">
           <div className="column is-half">

@@ -17,8 +17,10 @@ const IndexPage = () => (
       <figure className="photo image is-128x128">
         <img className="is-rounded" src={profileImage} alt="Luan Orlandi" />
       </figure>
-      <h1 className="title has-text-centered">Luan Orlandi</h1>
-      <h2 className="subtitle has-text-centered">Desenvolvedor Web</h2>
+      <h1 className="title has-text-light has-text-centered">Luan Orlandi</h1>
+      <h2 className="subtitle has-text-warning has-text-centered">
+        Desenvolvedor Web
+      </h2>
     </div>
     <div className="has-text-centered">
       {socialMedias.map(socialMedia => (
@@ -35,8 +37,8 @@ const IndexPage = () => (
     </div>
     <section className="section is-size-4 is-size-5-touch">
       <div className="container content">
-        <h4 className="title">
-          Olá, eu sou Luan Orlandi{' '}
+        <h4 className="title has-text-light">
+          Olá, eu sou Luan Orlandi!{' '}
           <span role="img" aria-label="aceno">
             👋
           </span>
