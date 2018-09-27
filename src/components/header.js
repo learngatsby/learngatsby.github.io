@@ -28,11 +28,7 @@ class Header extends Component {
     const burgerClass = isMenuOpen ? 'is-active' : '';
 
     return (
-      <nav
-        className="navbar has-shadow is-spaced"
-        role="navigation"
-        aria-label="main navigation"
-      >
+      <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
             <Link className="navbar-item is-size-4" to="/">
