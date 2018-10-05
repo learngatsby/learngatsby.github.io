@@ -1,4 +1,7 @@
+const pathPrefix = '/gatsby-course';
+
 module.exports = {
+  pathPrefix,
   siteMetadata: {
     title: 'Luan Orlandi',
   },
@@ -9,7 +12,8 @@ module.exports = {
       options: {
         name: 'Luan Orlandi',
         short_name: 'Luan Orlandi',
-        start_url: '/',
+        start_url:
+          process.env.NODE_ENV === 'production' ? `${pathPrefix}/` : '/',
         background_color: '#202021',
         theme_color: '#303030',
         display: 'minimal-ui',
