@@ -49,7 +49,7 @@ const IndexPage = () => (
         </a>
       ))}
     </div>
-    <section className="section is-size-4 is-size-5-touch">
+    <section className="section is-size-4-desktop is-size-5-touch">
       <div className="container content">
         <h4 className="title has-text-light">
           Olá, eu sou Luan Orlandi!{' '}

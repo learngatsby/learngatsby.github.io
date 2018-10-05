@@ -49,7 +49,7 @@ class Header extends Component {
             <div className="navbar-end">
               {navbarLinks.map(navbarLink => (
                 <Link
-                  className={'navbar-item is-size-5'}
+                  className="navbar-item is-size-5"
                   to={navbarLink.link}
                   key={navbarLink.title}
                 >

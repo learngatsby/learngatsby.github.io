@@ -10,7 +10,7 @@ const Stack = () => (
       <script
         async
         src="https://cdn1.stackshare.io/javascripts/client-code.js"
-        charset="utf-8"
+        charSet="utf-8"
       />
     </Helmet>
     <section className="section is-size-5-desktop is-size-6-touch">
@@ -27,7 +27,7 @@ const Stack = () => (
         <div className="columns is-centered">
           <div className="column is-half has-text-centered">
             <a
-              frameborder="0"
+              frameBorder="0"
               data-theme="dark"
               data-layers="1,2,3,4"
               data-stack-embed="true"
