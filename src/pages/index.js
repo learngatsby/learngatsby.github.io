@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -36,8 +37,8 @@ const IndexPage = () => (
       {socialMedias.map(socialMedia => (
         <a
           href={socialMedia.link}
-          aria-label={socialMedia.icon}
           key={socialMedia.icon}
+          aria-label={socialMedia.icon}
         >
           <span className="icon is-large">
             <FontAwesomeIcon

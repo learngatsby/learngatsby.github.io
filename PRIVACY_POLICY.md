@@ -1,4 +1,4 @@
-# Privacy Police
+# Privacy Policy
 
 I use Google Analytics as third party tracking service on Gatsby Course website, but I don’t use it to track you individually or collect your User Personal Information.
 

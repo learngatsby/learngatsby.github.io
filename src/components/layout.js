@@ -4,8 +4,8 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
-import '../styles/index.scss';
 import ogImage from '../assets/meta/luanorlandi.jpg';
+import '../styles/index.scss';
 
 const Layout = ({ children }) => (
   <StaticQuery

@@ -4054,8 +4054,8 @@ gatsby-plugin-google-analytics@^2.0.6:
     "@babel/runtime" "^7.0.0"
 
 gatsby-plugin-manifest@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.2.tgz#a978228dc9c252812f8592d7fc51a92769b3f004"
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.3.tgz#25b0e5a882ae8f8687da5104776a82eaa4b10623"
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
@@ -4105,8 +4105,8 @@ gatsby-react-router-scroll@^2.0.0:
     warning "^3.0.0"
 
 gatsby@^2.0.0:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.7.tgz#a2c2865e0dbe1845e5e0f3d1962af6c5b76fbfab"
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.8.tgz#3cfe58c3f1870c8f9383fbdd90a32b2b00dd1eb5"
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -4272,9 +4272,9 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-2.0.0.tgz#6615f6cb2abc0bcf22668e15b13afc5e304b9d93"
+gh-pages@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-2.0.1.tgz#aefe47a43b8d9d2aa3130576b33fe95641e29a2f"
   dependencies:
     async "^2.6.1"
     commander "^2.18.0"
@@ -6408,7 +6408,7 @@ p-finally@^1.0.0:
 
 p-is-promise@^1.1.0:
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
+  resolved "http://registry.npmjs.org/p-is-promise/-/p-is-promise-1.1.0.tgz#9c9456989e9f6588017b0434d56097675c3da05e"
 
 p-limit@^1.1.0:
   version "1.3.0"

@@ -14,16 +14,18 @@ const Stack = () => (
       />
     </Helmet>
     <section className="section is-size-5-desktop is-size-6-touch">
-      <h1 className="title has-text-light has-text-centered">Stack</h1>
-      <div className="container has-text-centered">
+      <div className="container">
+        <h1 className="title has-text-light has-text-centered">Stack</h1>
         <hr />
-        <p className="content">
+        <p className="content has-text-centered">
           Tenho experiência com diversas ferramentas e tecnologias modernas, que
           uso dependendo do projeto.
         </p>
-        <p className="content">Compartilho minha stack no StackShare:</p>
+        <p className="content has-text-centered">
+          Compartilho minha stack no StackShare:
+        </p>
         <div className="columns is-centered">
-          <div className="column is-half">
+          <div className="column is-half has-text-centered">
             <a
               frameBorder="0"
               data-theme="dark"

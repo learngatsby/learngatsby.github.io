@@ -22,24 +22,16 @@ class Header extends Component {
     }));
   };
 
-  closeMenu = () => {
-    this.setState({ isMenuOpen: false });
-  };
-
   render = () => {
     const { siteTitle } = this.props;
     const { isMenuOpen } = this.state;
     const burgerClass = isMenuOpen ? 'is-active' : '';
 
     return (
-      <nav className="navbar">
+      <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="container">
           <div className="navbar-brand">
-            <Link
-              className="navbar-item is-size-4"
-              to="/"
-              onClick={this.closeMenu}
-            >
+            <Link className="navbar-item is-size-4" to="/">
               {siteTitle}
             </Link>
             <button
@@ -60,7 +52,6 @@ class Header extends Component {
                   className="navbar-item is-size-5"
                   to={navbarLink.link}
                   key={navbarLink.title}
-                  onClick={this.closeMenu}
                 >
                   {navbarLink.title}
                 </Link>

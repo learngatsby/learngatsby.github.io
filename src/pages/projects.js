@@ -10,8 +10,8 @@ import projectImage4 from '../assets/westworld-intro-creator.jpg';
 
 const projectCards = [
   {
-    title: 'Gatsby Course',
-    subtitle: 'Curso no Udemy sobre Gatsby',
+    title: 'Curso de Gatsby',
+    subtitle: 'Curso na Udemy sobre Gatsby',
     link: 'https://github.com/luanorlandi/gatsby-course',
     imageLink: projectImage,
     tags: ['Gatsby', 'React'],
@@ -42,13 +42,12 @@ const projectCards = [
 const Projects = () => (
   <Layout>
     <section className="section is-size-5-desktop is-size-6-touch">
-      <h1 className="title has-text-light has-text-centered">Projetos</h1>
       <div className="container">
+        <h1 className="title has-text-light has-text-centered">Projetos</h1>
         <hr />
         <p className="content has-text-centered">
           Alguns dos meus projetos de destaque, veja mais no meu{' '}
-          <a href="https://github.com/luanorlandi">GitHub</a>
-          {'.'}
+          <a href="https://github.com/luanorlandi">GitHub</a>.
         </p>
         <div className="columns is-centered">
           <div className="column is-half">
