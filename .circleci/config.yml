@@ -8,6 +8,12 @@ jobs:
     branches:
         ignore:
           - gh-pages
+  deploy-job:
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "56:58:b9:0d:87:f6:f8:68:bd:3d:29:c3:b9:dc:e2:66"
+
     docker:
       # specify the version you desire here
       - image: circleci/node:10
