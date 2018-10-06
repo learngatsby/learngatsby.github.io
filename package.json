@@ -27,7 +27,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "format": "prettier --write 'src/**/*.js'",
     "test": "prettier --list-different 'src/**/*.js'"
   },
