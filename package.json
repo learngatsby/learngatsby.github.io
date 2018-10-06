@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-course",
-  "description": "Gatsby Course",
+  "name": "learngatsby.github.io",
+  "description": "Website of Learn Gatsby",
   "version": "1.0.0",
   "author": "Luan Orlandi <orlandi.luan@gmail.com>",
   "dependencies": {
@@ -20,7 +20,7 @@
     "react-helmet": "^5.2.0"
   },
   "keywords": [
-    "gatsby, course, portfolio, website, udemy"
+    "gatsby, course, portfolio, website"
   ],
   "license": "MIT",
   "scripts": {
@@ -38,6 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/luanorlandi/gatsby-course"
+    "url": "https://github.com/learngatsby/learngatsby.github.io"
   }
 }
