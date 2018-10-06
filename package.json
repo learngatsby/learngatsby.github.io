@@ -29,6 +29,7 @@
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -d public -b master",
     "format": "prettier --write 'src/**/*.js'",
+    "prettier": "prettier",
     "test": "prettier --list-different 'src/**/*.js'"
   },
   "devDependencies": {
