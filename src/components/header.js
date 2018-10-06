@@ -6,6 +6,7 @@ const navbarLinks = [
   { title: 'Projetos', link: '/projects' },
   { title: 'Stack', link: '/stack' },
   { title: 'Posts', link: '/posts' },
+  { title: 'Sites dos Alunos', link: '/sites' },
 ];
 
 class Header extends Component {
