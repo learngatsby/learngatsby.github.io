@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Luan Orlandi',
+    title: 'Curso de Gatsby',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Luan Orlandi',
-        short_name: 'Luan Orlandi',
+        name: 'Curso de Gatsby',
+        short_name: 'Curso de Gatsby',
         start_url: '/',
         background_color: '#202021',
         theme_color: '#303030',
