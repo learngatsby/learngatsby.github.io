@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
-
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter } from '@fortawesome/fontawesome-free-brands';
@@ -47,22 +45,68 @@ const IndexPage = () => (
     <section className="section is-size-4-desktop is-size-5-touch">
       <div className="container content">
         <p>
-          Veja o{' '}
-          <a href="https://www.udemy.com/gatsby-crie-seu-site-pessoal">
-            curso na Udemy
+          <a href="https://reactjs.org/">React</a> já é a ferramenta mais usada
+          para fazer aplicações web,{' '}
+          <a href="https://www.gatsbyjs.org/">Gatsby</a> está mudando o
+          desenvolvimento moderno de sites com alta performance usando React.
+        </p>
+        <p>
+          <a href="https://www.udemy.com/gatsby-crie-seu-site-pessoal/">
+            Comece esse curso hoje
           </a>{' '}
-          e o código fonte do{' '}
-          <a href="https://github.com/learngatsby/build-personal-website">
-            projeto no GitHub
+          e publique seu site pessoal do jeito moderno.
+        </p>
+        <h2 className="title has-text-light has-text-centered">
+          O que você vai criar?
+        </h2>
+        <hr />
+        <p>
+          Vamos construir um site igual a esse:{' '}
+          <a href="https://learngatsby.github.io/build-personal-website">
+            learngatsby.github.io/build-personal-website
           </a>
-          .
         </p>
         <p>
-          Implemente e publique seu site com Gatsby, aplicando desenvolvimento
-          Web moderno, alta performance e responsividade.
+          O desenvolvimento passo a passo vai permitir você criar um site igual,
+          mas que consiga adaptar o visual a forma que ficar melhor para você.
         </p>
+        <p>Veja a stack do que vamos usar e aprender:</p>
+        <ul>
+          <li>
+            <a href="https://reactjs.org/">React</a>, biblioteca mais usada em
+            sites SPA (Single Page Application)
+          </li>
+          <li>
+            <a href="https://www.gatsbyjs.org/">Gatsby</a>, framework para
+            desenvolver sites e apps de alta performance
+          </li>
+          <li>
+            <a href="https://bulma.io/">Bulma</a>
+            ,, framework de CSS para criar sites responsivos com Flexbox
+          </li>
+          <li>
+            <a href="https://pages.github.com/">GitHub Pages</a>, publicação do
+            site com o GitHub e domínio customizado
+          </li>
+          <li>
+            Web performance e desenvolvimento web moderno, boas práticas na Web
+            durante todo o curso
+          </li>
+        </ul>
         <p>
-          Veja os <Link to="/sites">sites dos alunos</Link> criados com o curso.
+          Não precisa saber a parte complicada de{' '}
+          <a href="https://webpack.js.org/">Webpack</a> e{' '}
+          <a href="https://babeljs.io/">Babel</a>, Gatsby já é configurado com
+          eles e vamos ver como extender ele{' '}
+          <span role="img" aria-label="ok">
+            👌
+          </span>
+        </p>
+        <p>Veja mais na página do curso na Udemy:</p>
+        <p>
+          <a href="https://www.udemy.com/gatsby-crie-seu-site-pessoal/">
+            www.udemy.com/gatsby-crie-seu-site-pessoal
+          </a>
         </p>
       </div>
     </section>

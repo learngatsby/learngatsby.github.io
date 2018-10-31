@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from '../components/card';
 
 import Layout from '../components/layout';
+import Card from '../components/card';
 
 const studentsSites = [
   {
@@ -22,7 +22,8 @@ const Sites = () => (
         </h1>
         <hr />
         <p className="content has-text-centered">
-          Sites desenvolvidos pelos alunos do curso usando a tecnologia Gatsby.
+          Sites desenvolvidos com Gatsby pelos alunos que compartilharam seu
+          site no final do curso.
         </p>
         <div className="columns is-centered">
           <div className="column is-half">

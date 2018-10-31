@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 
 const navbarLinks = [
   { title: 'Home', link: '/' },
+  { title: 'Udemy', link: '/udemy' },
   { title: 'Sites dos Alunos', link: '/sites' },
 ];
 
