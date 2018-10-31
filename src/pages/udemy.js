@@ -3,22 +3,12 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
-const couponRedirect = () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const coupon = urlParams.get('cupom');
-
-  if (coupon === 'GITUDEMY') {
-    window.location =
-      'https://www.udemy.com/gatsby-crie-seu-site-pessoal/?couponCode=GITUDEMY';
-  }
-};
-
 class Udemy extends Component {
   constructor(props) {
     super(props);
 
     if (typeof window !== 'undefined') {
-      couponRedirect();
+      window.location = 'https://www.udemy.com/share/100yfYA0AcdVpTQng=/';
     }
   }
 
