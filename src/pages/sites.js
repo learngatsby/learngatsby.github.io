@@ -5,6 +5,14 @@ import Card from '../components/card';
 
 const studentsSites = [
   {
+    title: 'Exemplo',
+    subtitle: 'Desenvolvedora Front-end',
+    link: 'https://exemplo.github.io',
+    imageLink:
+      'https://raw.githubusercontent.com/learngatsby/learngatsby.github.io/source/images/profile-placeholder.jpg',
+    tags: ['Gatsby'],
+  },
+  {
     title: 'Luan Orlandi',
     subtitle: 'Instrutor do Curso de Gatsby',
     link: 'https://luanorlandi.github.io',
